@@ -371,6 +371,7 @@ color secundario #eacb1c
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
+    /* Imagen del contacto cabecera */
     background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -397,7 +398,7 @@ color secundario #eacb1c
 }
 
 .feature .feature-item:hover {
-    background: var(--bs-primary);
+    background: var(----color-principal);
 }
 
 .feature .feature-item .feature-icon {
@@ -434,7 +435,7 @@ color secundario #eacb1c
 }
 
 .feature .feature-item .feature-icon {
-    color: var(--bs-primary);
+    color: var(----color-principal);
 }
 
 .feature .feature-item .feature-icon,
@@ -566,6 +567,10 @@ color secundario #eacb1c
 
 .service .service-item:hover .service-content .service-content-inner .h4:hover {
     color: var(--bs-dark);
+}
+
+.service-content-inner .h4:hover{
+    color: var(--bs-white);
 }
 
 .service .service-item .service-content::after {
