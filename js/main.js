@@ -32,15 +32,16 @@
         items: 1,
         margin: 0,
         stagePadding: 0,
-        autoplay: true,
-        smartSpeed: 500,
+        autoplay: false, //cambiar por true
+        smartSpeed: 1000,
         dots: true,
         loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ],
+        // nav : true,
+        // stagePadding: Number,
+        // navText : [
+        //     '<i class="bi bi-arrow-left"></i>',
+        //     '<i class="bi bi-arrow-right"></i>'
+        // ],
     });
 
 
